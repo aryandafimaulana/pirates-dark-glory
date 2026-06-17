@@ -33,7 +33,7 @@ const AboutSection = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-lg overflow-hidden bg-secondary border-2 border-border">
                 <Avatar className="w-full h-full rounded-lg">
                   <AvatarImage
-                    src="/aryan.jpg"
+                    src="/aryan.JPG"
                     alt="Aryan Dafi Maulana"
                     className="object-cover object-top"
                   />

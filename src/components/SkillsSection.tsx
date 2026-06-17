@@ -8,26 +8,26 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  // Frontend
-  { name: "React / Next.js", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
+  // Mobile & Frontend
+  { name: "Kotlin / Android Studio", level: 85, category: "frontend" },
+  { name: "Vue.js", level: 80, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "HTML / CSS", level: 95, category: "frontend" },
+  { name: "HTML / CSS / JavaScript", level: 90, category: "frontend" },
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Python", level: 75, category: "backend" },
-  { name: "PostgreSQL", level: 70, category: "backend" },
-  { name: "REST APIs", level: 85, category: "backend" },
-  // Tools
-  { name: "Git / GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 65, category: "tools" },
-  { name: "Figma", level: 70, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Laravel / PHP", level: 85, category: "backend" },
+  { name: "Node.js", level: 75, category: "backend" },
+  { name: "SQLite / MySQL", level: 80, category: "backend" },
+  { name: "REST APIs", level: 80, category: "backend" },
+  // Tools & Soft Skills
+  { name: "Git / GitHub", level: 85, category: "tools" },
+  { name: "Figma (UI/UX)", level: 85, category: "tools" },
+  { name: "Project Management", level: 90, category: "tools" },
+  { name: "Leadership & Public Speaking", level: 90, category: "tools" },
 ];
 
 const SkillCard = ({ skill, index }: { skill: Skill; index: number }) => (
-  <div 
-    className="space-y-2 animate-fade-in" 
+  <div
+    className="space-y-2 animate-fade-in"
     style={{ animationDelay: `${index * 0.05}s` }}
   >
     <div className="flex justify-between items-center">
@@ -39,14 +39,14 @@ const SkillCard = ({ skill, index }: { skill: Skill; index: number }) => (
 );
 
 const techIcons = [
-  { name: "React", icon: "⚛️" },
-  { name: "TypeScript", icon: "📘" },
-  { name: "Node.js", icon: "💚" },
-  { name: "Python", icon: "🐍" },
-  { name: "PostgreSQL", icon: "🐘" },
-  { name: "Git", icon: "📦" },
-  { name: "Docker", icon: "🐳" },
+  { name: "Kotlin", icon: "🤖" },
+  { name: "Laravel", icon: "🔺" },
+  { name: "Vue.js", icon: "💚" },
   { name: "Tailwind", icon: "🎨" },
+  { name: "Figma", icon: "🖌️" },
+  { name: "SQLite", icon: "🗄️" },
+  { name: "Git", icon: "📦" },
+  { name: "Android", icon: "📱" },
 ];
 
 const SkillsSection = () => {

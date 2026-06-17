@@ -34,7 +34,7 @@ const AboutSection = () => {
                 <Avatar className="w-full h-full rounded-lg">
                   <AvatarImage src="/placeholder.svg" alt="Profile" className="object-cover" />
                   <AvatarFallback className="text-6xl bg-gradient-zoro text-primary-foreground rounded-lg">
-                    ZR
+                    AD
                   </AvatarFallback>
                 </Avatar>
                 
@@ -56,18 +56,19 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="space-y-4 text-muted-foreground">
               <p className="text-lg leading-relaxed">
-                Hello! I'm a passionate <span className="text-primary font-semibold">Full-Stack Developer</span> with 
-                a strong foundation in building modern web applications. I believe in writing clean, 
-                efficient code and continuously improving my skills.
+                Hello! I'm <span className="text-primary font-semibold">Aryan Dafi Maulana</span>, an
+                undergraduate Computer Science student at Universitas Padjadjaran with a deep interest
+                in Mobile App development, UI/UX, product research, and project management.
               </p>
               <p className="leading-relaxed">
-                With experience in both frontend and backend development, I enjoy tackling complex 
-                challenges and turning ideas into reality. My journey in programming has taught me 
-                the value of persistence, discipline, and always striving for excellence.
+                I'm a quick learner, persistent, and adapt fast to new environments. With strong
+                communication and leadership skills — sharpened as Vice Chairman of Himatif FMIPA Unpad —
+                I enjoy working in teams and taking proactive roles to overcome challenges.
               </p>
               <p className="leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to 
-                open-source projects, or watching One Piece for inspiration on never giving up.
+                I've built mobile apps with Kotlin (Bangkit Academy 2024), digitized internal systems
+                as a full-stack developer at PT. Bintang Toedjoe, and developed a GIS web platform
+                for my thesis on employment indicators in Indonesia.
               </p>
             </div>
 
@@ -83,12 +84,12 @@ const AboutSection = () => {
             {/* Quick Facts */}
             <div className="grid grid-cols-2 gap-4">
               <div className="p-4 bg-card rounded-lg border border-border">
-                <p className="text-2xl font-bold text-gradient-zoro">2+</p>
-                <p className="text-sm text-muted-foreground">Years Experience</p>
+                <p className="text-2xl font-bold text-gradient-zoro">3.59</p>
+                <p className="text-sm text-muted-foreground">GPA / 4.00</p>
               </div>
               <div className="p-4 bg-card rounded-lg border border-border">
-                <p className="text-2xl font-bold text-gradient-gold">10+</p>
-                <p className="text-sm text-muted-foreground">Projects Completed</p>
+                <p className="text-2xl font-bold text-gradient-gold">6+</p>
+                <p className="text-sm text-muted-foreground">Certifications</p>
               </div>
             </div>
           </div>

@@ -30,12 +30,12 @@ const AboutSection = () => {
               <div className="absolute -inset-4 border-2 border-accent/20 rounded-lg -rotate-3" />
               
               {/* Avatar container */}
-              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-lg overflow-hidden bg-secondary border-2 border-border">
+              <div className="relative w-64 h-80 md:w-80 md:h-[420px] rounded-lg overflow-hidden bg-secondary border-2 border-border">
                 <Avatar className="w-full h-full rounded-lg">
                   <AvatarImage
                     src="/aryan.JPG"
                     alt="Aryan Dafi Maulana"
-                    className="object-cover object-top"
+                    className="w-full h-full object-cover object-top"
                   />
                   <AvatarFallback className="text-6xl bg-gradient-zoro text-primary-foreground rounded-lg">
                     AD

@@ -1,5 +1,6 @@
 import { Quote, Swords } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import profilePhoto from "@/assets/profile-photo.jpg.asset.json";
 
 const AboutSection = () => {
   return (

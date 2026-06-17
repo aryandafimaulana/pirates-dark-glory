@@ -1,6 +1,5 @@
 import { Quote, Swords } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import profilePhoto from "@/assets/profile-photo.jpg.asset.json";
 
 const AboutSection = () => {
   return (
@@ -33,7 +32,11 @@ const AboutSection = () => {
               {/* Avatar container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-lg overflow-hidden bg-secondary border-2 border-border">
                 <Avatar className="w-full h-full rounded-lg">
-                  <AvatarImage src={profilePhoto.url} alt="Aryan Dafi Maulana" className="object-cover" />
+                  <AvatarImage
+                    src="/aryan.jpg"
+                    alt="Aryan Dafi Maulana"
+                    className="object-cover object-top"
+                  />
                   <AvatarFallback className="text-6xl bg-gradient-zoro text-primary-foreground rounded-lg">
                     AD
                   </AvatarFallback>

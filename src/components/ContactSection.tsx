@@ -6,10 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:your@email.com", label: "Email" },
+  { icon: Github, href: "https://github.com/aryandafimaulana", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/aryandafimaulana", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:aryandafimaulana89@gmail.com", label: "Email" },
 ];
 
 const ContactSection = () => {
@@ -63,8 +62,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <a href="mailto:your@email.com" className="text-foreground hover:text-primary transition-colors">
-                    your@email.com
+                  <a href="mailto:aryandafimaulana89@gmail.com" className="text-foreground hover:text-primary transition-colors">
+                    aryandafimaulana89@gmail.com
                   </a>
                 </div>
               </div>
@@ -75,7 +74,19 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="text-foreground">Indonesia</p>
+                  <p className="text-foreground">Bogor, Jawa Barat, Indonesia</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                  <Send className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Phone</p>
+                  <a href="tel:+6282261133415" className="text-foreground hover:text-primary transition-colors">
+                    +62 822-6113-3415
+                  </a>
                 </div>
               </div>
             </div>

@@ -35,6 +35,13 @@ const projects: Project[] = [
     tags: ["GIS", "Web Mapping", "Data Visualization", "Regression Analysis"],
   },
   {
+    title: "Poultry GIS",
+    description:
+      "Web-based Geographic Information System for managing and monitoring poultry farm locations through interactive maps. Features farm database management, district-based filtering, Excel export, satellite imagery with AI-generated building measurement visualization, and dashboard analytics with Leaflet.js and Tailwind CSS.",
+    role: "Full-Stack Developer",
+    tags: ["Laravel", "SQLite", "Tailwind CSS", "Leaflet.js", "GIS"],
+  },
+  {
     title: "Software Project I",
     description:
       "Final project from Software Project I class at Teknik Informatika Universitas Padjadjaran. Built the front-end of a collaborative application.",
